@@ -1746,7 +1746,7 @@ local dropdown = Killer:AddDropdown("Select Pet", function(text)
             end
         end
     end
-    task.wait(0.2)
+    task.wait(0.1)
 
     local petName = text
     local petsToEquip = {}
@@ -1825,7 +1825,7 @@ Killer:AddSwitch("Auto Kill", function(bool)
                 end
             end
 
-            task.wait(0.05)
+            task.wait(0.01)
         end
     end)
 end)
