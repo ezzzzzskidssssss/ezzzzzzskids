@@ -3,7 +3,7 @@ local LocalPlayer = Players.LocalPlayer
 
 local library =loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library/main/Library", true))()
 -- VENTANA PRINCIPAL
-local window = library:AddWindow("DARKNESS HUB || public Script", {
+local window = library:AddWindow("DARKNESS PRIVATE ||", {
     main_color = Color3.fromRGB(0, 70, 180), -- purple
     min_size = Vector2.new(500, 500),
     can_resize = false,
