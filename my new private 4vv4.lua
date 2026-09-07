@@ -893,7 +893,7 @@ autoEquipToolsFolder:AddSwitch("Fast Tools", function(Value)
     _G.FastTools = Value
     
     local toolSettings = {
-        {"Punch", "attackTime", Value and 0 or 0.01},
+        {"Punch", "attackTime", Value and 0 or 0.00},
         {"Ground Slam", "attackTime", Value and 0 or 6},
         {"Stomp", "attackTime", Value and 0 or 7},
         {"Handstands", "repTime", Value and 0 or 1},
