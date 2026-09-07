@@ -5,7 +5,7 @@ local library =loadstring(game:HttpGet("https://raw.githubusercontent.com/memeja
 -- VENTANA PRINCIPAL
 local window = library:AddWindow("DARKNESS PRIVATE ||", {
     main_color = Color3.fromRGB(0, 70, 180), -- purple
-    min_size = Vector2.new(500, 500),
+    min_size = Vector2.new(600, 600),
     can_resize = false,
 })
 
